@@ -1,12 +1,31 @@
 
 
 <!--The content below is only a placeholder and can be replaced.-->
+
+  
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Mondia School</a>
+      </div>
+     
+      <div class="nav navbar-nav navbar-right">
+        <div><a href="languages">Programming Languages</a></div>
+        <div><a href="lessons">Lessons</a></div>
+      </div>
+    </div>
+  </nav>
+    
 <div style="text-align:center; padding-top: 2%">
    
     <img width="200" alt="Angular Logo" src="https://www.mondiamedia.com/content/themes/mondiamedia/library/assets_dist/img/logo_mm.png">
   </div>
  
-<div class="container" style="padding-top: 2%">
+  <div class="container" style="padding-top: 2%">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- <div class="container" style="padding-top: 2%">
 <div class="row">
   <div class="col-md-6">
     <h1>Programming languages</h1>
@@ -17,5 +36,5 @@
       <app-lessons></app-lessons>
     </div>
   </div>
-</div>
+</div> -->
 
